@@ -1,9 +1,13 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
+import { Calculator } from "./Calculator.js";
 
 function App() {
-	return <div className="App">Hello World</div>;
+	return (
+		<div className="wrapper">
+			<Calculator />
+		</div>
+	);
 }
 
 export default App;
