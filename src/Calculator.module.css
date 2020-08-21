@@ -3,9 +3,8 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	border: solid 2px;
-	border-radius: 4px;
 	color: black;
+	animation: glowing 9000ms infinite;
 }
 
 .calcButton {
@@ -17,13 +16,14 @@
 	justify-content: flex-end;
 	width: 100%;
 	flex: 1;
-	background-color: rgb(63, 63, 63);
+	background-color: #49e819;
+	animation: glowing 9000ms infinite;
 }
 
 .screen {
 	margin: 0;
 	font-size: 50px;
-	color: white;
+	color: black;
 }
 
 p {
@@ -32,7 +32,7 @@ p {
 
 .calcButtonTwo {
 	flex: 1;
-	padding: 10px 50.5px !important;
+	padding: 10px 49.5px !important;
 }
 
 .hey {
@@ -41,10 +41,12 @@ p {
 }
 
 button {
-	color: white;
-	font-size: 30px;
-	padding: 10px 20px;
-	background-color: rgb(131, 131, 131);
+	color: #49e819;
+	font-size: 35px;
+	padding: 10px 22.5px;
+	background-color: black;
+	border: 0;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 button:focus {
@@ -53,5 +55,20 @@ button:focus {
 
 button:hover {
 	cursor: pointer;
-	background: #4caf50;
+	background: #49e819;
+	color: black;
+}
+@keyframes glowing {
+	0% {
+		background-color: #49e819;
+		box-shadow: 0 0 5px #49e819;
+	}
+	50% {
+		background-color: #49e819;
+		box-shadow: 0 0 40px #49e819;
+	}
+	100% {
+		background-color: #49e819;
+		box-shadow: 0 0 5px #49e819;
+	}
 }

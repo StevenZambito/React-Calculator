@@ -9,7 +9,7 @@ export const Calculator = () => {
 			</div>
 			<div className={styles.hey}>
 				<button className={styles.calcButton}>Clear</button>
-				<button className={styles.calcButton}>/</button>
+				<button className={styles.calcButton}>÷</button>
 			</div>
 			<div className={styles.hey}>
 				<button className={styles.calcButton}>7</button>
