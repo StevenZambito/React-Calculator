@@ -17,3 +17,7 @@
 	background: #49e819;
 	color: black;
 }
+
+.largeButton {
+	flex: 4;
+}

@@ -30,7 +30,7 @@ export const Calculator = () => {
 				<Button value="+" />
 			</div>
 			<div className={styles.row}>
-				<Button value={0} />
+				<Button value={0} isLarge={true} />
 				<Button value="." />
 				<Button value="=" />
 			</div>

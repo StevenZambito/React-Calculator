@@ -7,11 +7,6 @@
 	animation: glowing 9000ms infinite;
 }
 
-.calcButtonTwo {
-	flex: 1;
-	padding: 10px 49.5px !important;
-}
-
 .row {
 	display: flex;
 	width: 100%;
