@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Button.module.css";
 
-export const Button = () => {
-	return <button className={styles.calcButton}>0</button>;
+export const Button = (props) => {
+	return <button className={styles.calcButton}>{props.value}</button>;
 };

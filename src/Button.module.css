@@ -1,3 +1,19 @@
 .calcButton {
 	flex: 1;
+	color: #49e819;
+	font-size: 35px;
+	padding: 10px 22.5px;
+	background-color: black;
+	border: 0;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.calcButton:focus {
+	outline: 0;
+}
+
+.calcButton:hover {
+	cursor: pointer;
+	background: #49e819;
+	color: black;
 }

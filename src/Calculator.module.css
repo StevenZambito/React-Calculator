@@ -7,42 +7,16 @@
 	animation: glowing 9000ms infinite;
 }
 
-.calcButton {
-	flex: 1;
-}
-
-p {
-	padding: 10px;
-}
-
 .calcButtonTwo {
 	flex: 1;
 	padding: 10px 49.5px !important;
 }
 
-.hey {
+.row {
 	display: flex;
 	width: 100%;
 }
 
-button {
-	color: #49e819;
-	font-size: 35px;
-	padding: 10px 22.5px;
-	background-color: black;
-	border: 0;
-	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-
-button:focus {
-	outline: 0;
-}
-
-button:hover {
-	cursor: pointer;
-	background: #49e819;
-	color: black;
-}
 @keyframes glowing {
 	0% {
 		background-color: #49e819;
