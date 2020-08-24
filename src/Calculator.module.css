@@ -11,21 +11,6 @@
 	flex: 1;
 }
 
-.screenSection {
-	display: flex;
-	justify-content: flex-end;
-	width: 100%;
-	flex: 1;
-	background-color: #49e819;
-	animation: glowing 9000ms infinite;
-}
-
-.screen {
-	margin: 0;
-	font-size: 50px;
-	color: black;
-}
-
 p {
 	padding: 10px;
 }
